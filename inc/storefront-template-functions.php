@@ -127,14 +127,13 @@ if ( ! function_exists( 'storefront_footer_widgets' ) ) {
 	}
 }
 
-/*
- if ( ! function_exists( 'storefront_credit' ) ) {
+if ( ! function_exists( 'storefront_credit' ) ) {
 	/**
 	 * Display the theme credit
 	 *
 	 * @since  1.0.0
 	 * @return void
-
+	 */
 	function storefront_credit() {
 		$links_output = '';
 
@@ -163,10 +162,7 @@ if ( ! function_exists( 'storefront_footer_widgets' ) ) {
 		</div><!-- .site-info -->
 		<?php
 	}
-} 
-
-*/
-
+}
 
 if ( ! function_exists( 'storefront_header_widget_region' ) ) {
 	/**
